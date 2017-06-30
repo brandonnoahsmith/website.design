@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>brandon smith</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <style type="text/css">
+body {
+    overflow:hidden;
+}
+</style>
+
+<header>
+    <p1>brandon smith</p1>
+</header>
+
+<div class="nav">
+    <ul>
+        <li><a class="current" href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><p></p>  </li>
+        <li><a href="force.html">force</a></li>
+        <li><a href="unity.html">unity</a></li>
+        <li><a href="mm.html">mm</a></li>
+        <li><a href="int.html">int</a></li>
+        <li><a href="ss.html">ss</a></li>
+        <li><a href="misc.html">misc</a></li>
+    </ul>
+</div>
+
+    
+    
+    
+
+    
+    
+    
+
+<div class="w3-content w3-section" >
+  <img class="auto forcesvg" src="media/slideshow/force.svg"  >
+  <img class="auto" src="media/slideshow/unity.svg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("auto");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

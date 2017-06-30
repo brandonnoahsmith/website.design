@@ -1,0 +1,143 @@
+p1{
+    font-family: swis721 ltcn bt;
+    padding-left: 20px;
+    padding-top: 35px;
+    position: fixed;
+    line-height: 156%;
+    font-size: 16px;
+    margin: 0;}
+p2{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 175px;
+    padding-top: 100px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: swis721 ltcn bt;
+    line-height: 156%;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 0px;
+    z-index: 199;
+    margin-top: 0;
+    
+}
+
+
+
+
+.current{text-decoration:line-through;}
+
+
+
+.resume{
+text-decoration: underline;
+color: black;
+z-index:5;
+position: relative;
+}
+
+.email{color: black;}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 100px;
+    width: 40px;
+    z-index: 999;
+    position: fixed;
+}
+li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: swis721 ltcn bt;
+    line-height: 156%;
+    width: 40px;
+    font-size: 16px;
+    z-index: 999;
+}
+li{text-decoration: none;}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+margin: 0;
+   
+    top: 0%;
+    padding-top: 75px;
+  color: black;
+  font-weight: bold;
+    line-height: 156%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    z-index: 9;
+    padding-left: 60px;
+    margin-left: 0;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding-left: 175px;
+  margin: 0;
+    padding-top: 164px;
+
+}
+
+.mySlides {
+    display: none;
+    
+}
+
+
+.next {
+padding-left: 61px;
+border-radius: 3px 0 0 3px;
+    padding-top: 97px;
+}
+
+p3{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+  
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: swis721 ltcn bt;
+    line-height: 156%;
+    font-size: 16px;
+    padding-top: -50px;
+    position:fixed;
+    margin-left: 0px;
+    z-index: 1;
+    margin-top: 0;
+    
+}
+
+.fade{
+    padding-top: 5px;
+}
+
+
+.forcesvg{
+    
+}
+
+.auto{
+
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.forcesvg{
+    width: 100%;
+    padding-right: 0px;
+    margin:0;
+    padding-left: 11%;
+    padding-bottom: 0%;
+}

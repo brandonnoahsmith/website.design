@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>brandon smith | force</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+<header>
+    <p1>brandon smith</p1>
+    
+    <p2>force <br> 2016
+    </p2>
+    
+    
+</header>
+
+<div class="nav">
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><p></p>  </li>
+        
+        <li><a class="current" href="force.html">force</a></li>
+        <li><a href="unity.html">unity</a></li>
+        <li><a href="mm.html">mm</a></li>
+        <li><a href="int.html">int</a></li>
+        <li><a href="ss.html">ss</a></li>
+        <li><a href="misc.html">misc</a></li>
+    </ul>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="slideshow-container">
+          <a class="prev" onclick="plusSlides(-1)"><br>&uarr;
+
+
+</a>
+  <a class="next" onclick="plusSlides(1)"><br>&darr;
+
+</a>
+<div class="mySlides">
+    <p3>force (completed in collaboartion with gil jang) is an abstract sculpture that
+explores the transition <br>and
+juxtaposition between two tools
+force parallels the distinction of two
+actions (a clean chop and <br>a rough
+press) through the transition of thin
+extended blades that sever the
+material structure to <br>nested masses
+that dominate and ground the base
+<br><br>the ending “twist” of motion reflects
+the rotational motion of the intial tool
+and suggests a sense of <br>flight and
+weightlessness to draw attention to the
+contrast with the massive bottom<br><br>
+the created space is repetitive,
+evolving, and reflects both the idea of
+void and of power,<br> symbolizing both
+the ice crusher and the vegatable
+chopper</p3>
+  </div>
+    
+    <div class="mySlides fade">
+    <img src="media/force/force_drafted_drawing_1.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="media/force/force_final_model_1.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="media/force/force_final_model_2.jpg" style="width:90%">
+  </div>
+
+
+</div>
+    
+        
+    
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    
+    
+    
+    
+    
+</html>
